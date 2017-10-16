@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib":["es2016","es2016.array.include"],
+		"noImplicitAny":false,
+		"noEmitOnError":true,
+        "removeComments": false,
+        "sourceMap": true,
+        "rootDir": "./src",
+        "outDir": "./app",
+        "mapRoot": "./app"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
