@@ -8,7 +8,7 @@ const server = http.createServer(app);
 const port = 8088;
 
 app.get('/', async (req,res) => {
-	let result = await axios.get("https://google.com");
+	let result = await axios.get("https://suldashi.com");
 	res.send(result.data);
 });
 
